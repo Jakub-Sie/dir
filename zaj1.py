@@ -143,7 +143,7 @@ def main(kursy=kursy,studenci=studenci):
         if "1"==select:
             kursy=kursyy(kursy)
         elif "2"==select:
-            studenci=studenta(kursy)
+            studenci=studenta(studenci)
         elif "10"==select:
             return "ŻEGRAM"
         else:
